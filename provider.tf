@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "altodevops-tf-remote-state"
+    bucket = "altodevops-tf-remotestate"
     key = "vpc-test"
     region = "us-east-1"
     dynamodb_table = "altodevops-state-locking"
